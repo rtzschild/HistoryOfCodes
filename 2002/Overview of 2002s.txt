@@ -1,0 +1,11 @@
+Technologies:
+
+  Web 2.0: The concept of interactive and user-generated web content was emerging.
+
+  Broadband Internet: Faster internet speeds enabled richer web experiences.
+  
+Programming Languages:
+
+  Java: Continued dominance in enterprise applications.
+
+  C#: Introduced by Microsoft for .NET framework development.
