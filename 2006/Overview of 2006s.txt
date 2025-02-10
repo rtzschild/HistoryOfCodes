@@ -1,0 +1,11 @@
+Technologies:
+
+  Cloud Computing: Early stages of cloud services like Amazon Web Services (AWS).
+
+  Smartphones: The first iPhone was released in 2007, but mobile app development was still nascent.
+
+Programming Languages:
+
+  Python: Increasingly popular for web development and data analysis.
+
+  JavaScript: Continued growth with frameworks like jQuery.
