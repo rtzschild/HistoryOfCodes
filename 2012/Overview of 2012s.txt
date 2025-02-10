@@ -1,0 +1,11 @@
+Technologies:
+
+Big Data: Hadoop and other big data technologies were becoming popular.
+
+Responsive Web Design: Websites began adapting to different screen sizes.
+
+Programming Languages:
+
+JavaScript: Rise of front-end frameworks like Backbone.js and Ember.js.
+
+Python: Increasingly used in data science and machine learning.
