@@ -1,0 +1,11 @@
+Technologies:
+
+  AI and Machine Learning: Advanced AI models like GPT-4 and beyond are widely used.
+
+  Quantum Computing: Early stages of practical quantum computing.
+
+Programming Languages:
+
+  Python: Continued dominance in AI, machine learning, and data science.
+
+  JavaScript/TypeScript: Essential for web development and PWAs.
