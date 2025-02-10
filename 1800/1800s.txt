@@ -1,0 +1,9 @@
+Technologies:
+
+  Punch Cards: Used for early data processing and programming in mechanical computers like the Jacquard loom and later in tabulating machines.
+
+  Analytical Engine: Designed by Charles Babbage, it was a mechanical general-purpose computer.
+
+Programming Languages:
+
+  No formal programming languages existed. Programs were written as instructions for mechanical devices
