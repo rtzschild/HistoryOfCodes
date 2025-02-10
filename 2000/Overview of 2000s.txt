@@ -1,0 +1,11 @@
+Technologies:
+
+  Internet: The dot-com boom was in full swing, and web technologies like HTML, CSS, and JavaScript were widely used.
+
+  Mobile Phones: Early mobile phones were becoming popular, but smartphones were not yet mainstream.
+
+Programming Languages:
+
+  Java: Widely used for web applications and enterprise software.
+
+  C++: Popular for system programming and game development.
