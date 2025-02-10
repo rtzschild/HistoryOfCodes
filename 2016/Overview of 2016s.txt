@@ -1,0 +1,11 @@
+Technologies:
+
+  Artificial Intelligence (AI): Machine learning and deep learning were becoming mainstream.
+
+  Progressive Web Apps (PWAs): Web apps that function like native apps.
+
+Programming Languages:
+
+  JavaScript: Continued growth with frameworks like Vue.js and Angular 2+.
+
+  Python: Dominance in AI and machine learning with libraries like TensorFlow and PyTorch.
