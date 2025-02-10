@@ -1,0 +1,11 @@
+Technologies:
+
+  Mobile Apps: The App Store and Google Play were driving mobile app development.
+
+  Social Media: Platforms like Facebook and Twitter were growing rapidly.
+
+Programming Languages:
+
+  JavaScript: Rise of frameworks like AngularJS and Node.js.
+
+  Swift: Introduced by Apple for iOS development (released in 2014, but Objective-C was still dominant in 2010).
