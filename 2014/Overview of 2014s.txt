@@ -1,0 +1,11 @@
+Technologies:
+
+  Internet of Things (IoT): Connected devices were becoming more common.
+
+  Docker: Revolutionized containerization and DevOps practices.
+
+Programming Languages:
+
+  JavaScript: Continued dominance with the rise of React.js.
+
+  Swift: Officially released by Apple for iOS development.
