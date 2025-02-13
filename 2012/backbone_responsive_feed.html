@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Backbone.js Demo</title>
+  <!-- Ensure the page scales properly on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Including jQuery, Underscore, and Backbone from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    /* Responsive adjustments */
+    @media (min-width: 600px) {
+      .container {
+        width: 80%;
+      }
+    }
+    @media (min-width: 900px) {
+      .container {
+        width: 70%;
+      }
+    }
+    .item {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Responsive Social Data Feed</h1>
+    <div id="items"></div>
+  </div>
+  <script>
+    // Define a simple Backbone model
+    var Item = Backbone.Model.extend({
+      defaults: {
+        name: "Unnamed Item"
+      }
+    });
+
+    // Collection of items
+    var ItemCollection = Backbone.Collection.extend({
+      model: Item
+    });
+
+    // Sample data representing social posts or data entries
+    var items = new ItemCollection([
+      { name: "Post 1: Responsive design is revolutionizing the web!" },
+      { name: "Post 2: Backbone.js empowers dynamic front-end experiences." },
+      { name: "Post 3: Adapting to mobile screens has never been easier." }
+    ]);
+
+    // Define a view to render each item
+    var ItemView = Backbone.View.extend({
+      tagName: 'div',
+      className: 'item',
+      render: function() {
+        this.$el.html(this.model.get('name'));
+        return this;
+      }
+    });
+
+    // Main view to render the collection
+    var AppView = Backbone.View.extend({
+      el: '#items',
+      initialize: function() {
+        this.render();
+      },
+      render: function() {
+        this.collection.each(function(item) {
+          var view = new ItemView({ model: item });
+          this.$el.append(view.render().el);
+        }, this);
+        return this;
+      }
+    });
+
+    // Initialize the application view with the collection
+    var appView = new AppView({ collection: items });
+  </script>
+</body>
+</html>
