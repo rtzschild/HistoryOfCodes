@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile App Demo - Early Smartphone Era</title>
+  <!-- Using an early version of jQuery to reflect the era -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 20px;
+    }
+    #content {
+      padding: 20px;
+      background-color: #ff4d4d;
+      color: white;
+      text-align: center;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <h1>Welcome to the Early Smartphone Era!</h1>
+    <p>Experience interactive web content powered by jQuery and broadband internet.</p>
+  </div>
+  <button id="updateButton">Update Content</button>
+
+  <script>
+    $(document).ready(function(){
+      $("#updateButton").click(function(){
+        $("#content").html("<h1>Content Updated!</h1><p>jQuery brings interactive experiences to early mobile web development.</p>");
+      });
+    });
+  </script>
+</body>
+</html>
