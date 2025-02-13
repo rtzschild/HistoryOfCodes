@@ -3,7 +3,7 @@
  *
  * This simple Java program illustrates the continued dominance of Java in enterprise applications
  * during the Web 2.0 era. As interactive, user-generated web content emerged and broadband internet
- * provided faster data transfer, Java powered robust backend systems that supported dynamic websites.
+ * provided faster data transfer, Java powered robust backend systems that supported dynamic websites..
  */
 
 public class Web2EnterpriseApp {
