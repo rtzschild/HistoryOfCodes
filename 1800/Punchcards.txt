@@ -1,0 +1,10 @@
+Punch cards were an early method of programming and data storage, used in mechanical computers and early digital systems. Here are a few examples:
+
+Jacquard Loom (1804)
+
+Used punched cards to control the weaving of fabric patterns.
+Each hole in the card corresponded to a specific weaving action.
+Herman Hollerith’s Tabulating Machine (1890)
+
+Used for the U.S. Census to process large amounts of data.
+Punched cards stored numerical data, allowing sorting and counting.
