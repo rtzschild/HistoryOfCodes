@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="socialFeedApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media Feed - Mobile Era</title>
+  <!-- Using AngularJS to create interactive web content -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 20px;
+    }
+    .post {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body ng-controller="FeedController">
+  <h1>Social Media Feed</h1>
+  <div class="post" ng-repeat="post in posts">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+  </div>
+  
+  <script>
+    angular.module('socialFeedApp', [])
+      .controller('FeedController', ['$scope', function($scope) {
+        $scope.posts = [
+          { title: 'Welcome Post', content: 'Hello! This is our debut post on our emerging social media platform.' },
+          { title: 'Mobile Launch', content: 'Our app is now live on the App Store and Google Play!' },
+          { title: 'Update', content: 'AngularJS is powering our interactive content for a richer user experience.' }
+        ];
+      }]);
+  </script>
+</body>
+</html>
